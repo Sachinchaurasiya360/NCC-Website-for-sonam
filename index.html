@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation -->  
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/lg2.png" alt="NCC Logo" height="40">
+                NO1 MAH AIR SQN NCC
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -31,6 +32,20 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#training">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alumni.html">Alumni</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Camps
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="camps/vsc.html">Vayu Sainik Camp</a></li>
+                            <li><a class="dropdown-item" href="camps/rdc.html">Republic Day Camp</a></li>
+                            <li><a class="dropdown-item" href="camps/ebsb.html">EBSB Camp</a></li>
+                            <li><a class="dropdown-item" href="camps/desert-safari.html">Desert Safari Camp</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#events">Events</a>
@@ -237,6 +252,71 @@
                     </div>
                 </div>
             </div>
+
+            <!-- PI Staff Section -->
+            <div class="row mt-5">
+                <div class="col-12 text-center mb-4">
+                    <h3>Our PI Staff</h3>
+                    <div class="section-divider mb-4"></div>
+                    <p class="lead">Meet our dedicated Permanent Instructional Staff who lead and inspire</p>
+                </div>
+            </div>
+            <div class="row officers-grid">
+                <div class="col-lg-6 mb-4">
+                    <div class="officer-card">
+                        <div class="officer-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="officer-info">
+                            <h4 class="officer-role">Commanding Officer (CO)</h4>
+                            <h5 class="officer-name">Gp Capt S.K Nayak</h5>
+                            <div class="officer-divider"></div>
+                            <p class="officer-description">Leading the NCC unit with distinction and dedication to excellence in cadet training and development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="officer-card">
+                        <div class="officer-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="officer-info">
+                            <h4 class="officer-role">Associate NCC Officer (ANO)</h4>
+                            <h5 class="officer-name">F/O Akshaya Patil</h5>
+                            <div class="officer-divider"></div>
+                            <p class="officer-description">Coordinating training activities and ensuring seamless operation of all NCC programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row officers-grid">
+                <div class="col-lg-6 mb-4">
+                    <div class="officer-card">
+                        <div class="officer-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="officer-info">
+                            <h4 class="officer-role">Junior Warrant Officer (JWO)</h4>
+                            <h5 class="officer-name">JWO Sunil Kumar</h5>
+                            <div class="officer-divider"></div>
+                            <p class="officer-description">Providing expert guidance in drill training and maintaining high standards of discipline.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="officer-card">
+                        <div class="officer-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="officer-info">
+                            <h4 class="officer-role">Junior Warrant Officer (JWO)</h4>
+                            <h5 class="officer-name">JWO Alok Mitra</h5>
+                            <div class="officer-divider"></div>
+                            <p class="officer-description">Specializing in weapons training and coordinating field exercises for cadets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -249,39 +329,181 @@
                 <p class="lead">Comprehensive training programs for holistic development</p>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="training-card">
-                        <div class="card h-100">
-                            <img src="images/drill.jpg" class="card-img-top" alt="Drill Training">
-                            <div class="card-body">
-                                <h3 class="card-title">Drill Training</h3>
-                                <p class="card-text">Master precision movements and formations through rigorous drill training.</p>
-                                <a href="training-pages/drill-training.html" class="btn btn-primary">Learn More</a>
+            <!-- Training Navigation -->
+            <div class="training-nav mb-5">
+                <ul class="nav nav-pills justify-content-center" id="trainingTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#drill">
+                            <i class="fas fa-walking"></i>
+                            <span>Drill Training</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#aeromodelling">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Aeromodelling</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#flying">
+                            <i class="fas fa-plane"></i>
+                            <span>Flying Training</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#firing">
+                            <i class="fas fa-bullseye"></i>
+                            <span>Firing Training</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Training Content -->
+            <div class="tab-content" id="trainingTabContent">
+                <!-- Drill Section -->
+                <div class="tab-pane fade show active" id="drill" role="tabpanel">
+                    <div class="training-content-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="training-info">
+                                    <h3>Drill Training</h3>
+                                    <p class="lead">Master the fundamentals of military discipline and precision</p>
+                                    <div class="training-features">
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Formation Marching</span>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Command Response</span>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Parade Training</span>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3">Drill training forms the backbone of NCC activities, instilling discipline, coordination, and team spirit among cadets. Through regular practice, cadets develop precision in movement and quick response to commands.</p>
+                                    <a href="training-pages/drill-training.html" class="btn btn-learn-more">
+                                        Learn More <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="training-image">
+                                    <img src="images/drill.jpg" alt="Drill Training" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="training-card">
-                        <div class="card h-100">
-                            <img src="images/adventure.jpg" class="card-img-top" alt="Adventure Activities">
-                            <div class="card-body">
-                                <h3 class="card-title">Adventure Activities</h3>
-                                <p class="card-text">Experience thrilling adventures and develop leadership skills.</p>
-                                <a href="training-pages/adventure-activities.html" class="btn btn-primary">Learn More</a>
+
+                <!-- Aeromodelling Section -->
+                <div class="tab-pane fade" id="aeromodelling" role="tabpanel">
+                    <div class="training-content-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="training-info">
+                                    <h3>Aeromodelling</h3>
+                                    <p class="lead">Design, build, and fly model aircraft</p>
+                                    <div class="training-features">
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Aircraft Design Principles</span>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Model Construction</span>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Flight Testing</span>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3">Aeromodelling introduces cadets to the fascinating world of aviation through hands-on experience in building and flying model aircraft. This activity develops technical skills and understanding of aerodynamics.</p>
+                                    <a href="training-pages/aeromodelling.html" class="btn btn-learn-more">
+                                        Learn More <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="training-image">
+                                    <img src="images/aero.jpg" alt="Aeromodelling" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="training-card">
-                        <div class="card h-100">
-                            <img src="images/social.jpg" class="card-img-top" alt="Social Service">
-                            <div class="card-body">
-                                <h3 class="card-title">Social Service</h3>
-                                <p class="card-text">Make a difference in society through dedicated community service.</p>
-                                <a href="training-pages/social-service.html" class="btn btn-primary">Learn More</a>
+
+                <!-- Flying Section -->
+                <div class="tab-pane fade" id="flying" role="tabpanel">
+                    <div class="training-content-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="training-info">
+                                    <h3>Flying Training</h3>
+                                    <p class="lead">Experience the thrill of aviation</p>
+                                    <div class="training-features">
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Basic Flight Principles</span>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Navigation Skills</span>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Flight Safety</span>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3">Flying training provides cadets with practical exposure to aviation. Through theoretical classes and practical sessions, cadets learn about aircraft operations, navigation, and flight safety procedures.</p>
+                                    <a href="training-pages/flying-training.html" class="btn btn-learn-more">
+                                        Learn More <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="training-image">
+                                    <img src="images/flying.jpg" alt="Flying Training" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Firing Section -->
+                <div class="tab-pane fade" id="firing" role="tabpanel">
+                    <div class="training-content-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="training-info">
+                                    <h3>Firing Training</h3>
+                                    <p class="lead">Master marksmanship and weapon handling</p>
+                                    <div class="training-features">
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Weapon Handling</span>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Range Practice</span>
+                                        </div>
+                                        <div class="feature-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <span>Safety Protocols</span>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3">Firing training teaches cadets proper weapon handling, marksmanship, and safety procedures. Through supervised range practice, cadets develop accuracy, discipline, and responsible handling of firearms.</p>
+                                    <a href="training-pages/firing-training.html" class="btn btn-learn-more">
+                                        Learn More <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="training-image">
+                                    <img src="images/firing.jpg" alt="Firing Training" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -402,7 +624,7 @@
                     <p>Designed with <i class="fas fa-heart text-danger"></i> for NCC</p>
                 </div>
             </div>
-        </div>
+    </div>
     </footer>
 
     <!-- Bootstrap JS -->
